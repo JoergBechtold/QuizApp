@@ -1,0 +1,42 @@
+let questions = [
+  {
+    question: 'Welches Land ist das größte der Welt nach Fläche?',
+    answer_1: 'China',
+    answer_2: 'Kanada',
+    answer_3: 'Russland',
+    answer_4: 'USA',
+    right_answer: 3,
+  },
+  {
+    question: 'Welcher Fluss ist der längste der Welt?',
+    answer_1: 'Amazonas',
+    answer_2: 'Nil',
+    answer_3: 'Mississippi',
+    answer_4: 'Yangtze',
+    right_answer: 2,
+  },
+  {
+    question: 'In welchem Land befindet sich die Stadt Sydney?',
+    answer_1: 'Kanada',
+    answer_2: 'Australien',
+    answer_3: 'USA',
+    answer_4: 'Südafrika',
+    right_answer: 2,
+  },
+  {
+    question: 'Welcher Kontinent ist der kleinste der Welt?',
+    answer_1: 'Asien',
+    answer_2: 'Europa',
+    answer_3: 'Australien',
+    answer_4: 'Afrika',
+    right_answer: 3,
+  },
+  {
+    question: 'Wie viele Kontinente gibt es auf der Erde?',
+    answer_1: '5',
+    answer_2: '6',
+    answer_3: '7',
+    answer_4: '8',
+    right_answer: 3,
+  },
+];
