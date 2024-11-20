@@ -33,7 +33,12 @@
       <div class="card quiz-card">
         <img src="img/pencil.jpg" class="card-img-top" alt="Hintergrundbild" />
 
-        <div class="card-body" style="display: none" id="end_screen">Quiz beendet!</div>
+        <!-- endscreen -->
+        <div class="card-body" style="display: none" id="end_screen">
+          <div class="text-center">Quiz beendet!</div>
+          <div><img class="width-100" src="img/trophy.jpg" alt="Sieger Pokal" /></div>
+          <div class="text-center">Du hast <b>XXX</b> Fragen von <b id="total_questions">XXX</b> richtig beantwortet.</div>
+        </div>
 
         <div class="card-body" id="question_body">
           <h5 class="card-title" id="questionText">Frage</h5>

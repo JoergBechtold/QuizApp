@@ -45,6 +45,7 @@ let currentQuestion = 0;
 
 function init() {
   document.getElementById('all_questions').innerHTML = questions.length;
+  document.getElementById('total_questions').innerHTML = questions.length;
   showQuestion();
 }
 
