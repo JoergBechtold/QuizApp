@@ -42,7 +42,6 @@ let questions = [
 ];
 
 let rightQuestions = 0;
-
 let currentQuestion = 0;
 
 function init() {
@@ -113,4 +112,15 @@ function resetAnswerButtons() {
   document.getElementById('answer_3').parentNode.classList.remove('bg-danger');
   document.getElementById('answer_4').parentNode.classList.remove('bg-success');
   document.getElementById('answer_4').parentNode.classList.remove('bg-danger');
+}
+
+function restartGame() {
+  document.getElementById('header_img_top').src = 'img/pencil.jpg';
+  document.getElementById('end_screen').style = 'display: none'; // endscreen ausblenden
+  document.getElementById('question_body').style = ''; // questionBody wieder anzeigen
+
+  rightQuestions = 0;
+  currentQuestion = 0;
+
+  init();
 }
